@@ -1,0 +1,8 @@
+   build/
+   output/*.csv
+   *.o
+   *.exe
+   __pycache__/
+   .venv/
+   .vscode/
+   .DS_Store
