@@ -83,10 +83,24 @@ CMakeFiles/radar_sim.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/radar_sim.dir/src/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/radar-tracking-sim/src/main.cpp -o CMakeFiles/radar_sim.dir/src/main.cpp.s
 
+CMakeFiles/radar_sim.dir/src/radar.cpp.o: CMakeFiles/radar_sim.dir/flags.make
+CMakeFiles/radar_sim.dir/src/radar.cpp.o: /workspaces/radar-tracking-sim/src/radar.cpp
+CMakeFiles/radar_sim.dir/src/radar.cpp.o: CMakeFiles/radar_sim.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/radar-tracking-sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/radar_sim.dir/src/radar.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/radar_sim.dir/src/radar.cpp.o -MF CMakeFiles/radar_sim.dir/src/radar.cpp.o.d -o CMakeFiles/radar_sim.dir/src/radar.cpp.o -c /workspaces/radar-tracking-sim/src/radar.cpp
+
+CMakeFiles/radar_sim.dir/src/radar.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/radar_sim.dir/src/radar.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/radar-tracking-sim/src/radar.cpp > CMakeFiles/radar_sim.dir/src/radar.cpp.i
+
+CMakeFiles/radar_sim.dir/src/radar.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/radar_sim.dir/src/radar.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/radar-tracking-sim/src/radar.cpp -o CMakeFiles/radar_sim.dir/src/radar.cpp.s
+
 CMakeFiles/radar_sim.dir/src/target.cpp.o: CMakeFiles/radar_sim.dir/flags.make
 CMakeFiles/radar_sim.dir/src/target.cpp.o: /workspaces/radar-tracking-sim/src/target.cpp
 CMakeFiles/radar_sim.dir/src/target.cpp.o: CMakeFiles/radar_sim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/radar-tracking-sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/radar_sim.dir/src/target.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/radar-tracking-sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/radar_sim.dir/src/target.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/radar_sim.dir/src/target.cpp.o -MF CMakeFiles/radar_sim.dir/src/target.cpp.o.d -o CMakeFiles/radar_sim.dir/src/target.cpp.o -c /workspaces/radar-tracking-sim/src/target.cpp
 
 CMakeFiles/radar_sim.dir/src/target.cpp.i: cmake_force
@@ -100,7 +114,7 @@ CMakeFiles/radar_sim.dir/src/target.cpp.s: cmake_force
 CMakeFiles/radar_sim.dir/src/world.cpp.o: CMakeFiles/radar_sim.dir/flags.make
 CMakeFiles/radar_sim.dir/src/world.cpp.o: /workspaces/radar-tracking-sim/src/world.cpp
 CMakeFiles/radar_sim.dir/src/world.cpp.o: CMakeFiles/radar_sim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/radar-tracking-sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/radar_sim.dir/src/world.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/radar-tracking-sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/radar_sim.dir/src/world.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/radar_sim.dir/src/world.cpp.o -MF CMakeFiles/radar_sim.dir/src/world.cpp.o.d -o CMakeFiles/radar_sim.dir/src/world.cpp.o -c /workspaces/radar-tracking-sim/src/world.cpp
 
 CMakeFiles/radar_sim.dir/src/world.cpp.i: cmake_force
@@ -114,6 +128,7 @@ CMakeFiles/radar_sim.dir/src/world.cpp.s: cmake_force
 # Object files for target radar_sim
 radar_sim_OBJECTS = \
 "CMakeFiles/radar_sim.dir/src/main.cpp.o" \
+"CMakeFiles/radar_sim.dir/src/radar.cpp.o" \
 "CMakeFiles/radar_sim.dir/src/target.cpp.o" \
 "CMakeFiles/radar_sim.dir/src/world.cpp.o"
 
@@ -121,11 +136,12 @@ radar_sim_OBJECTS = \
 radar_sim_EXTERNAL_OBJECTS =
 
 radar_sim: CMakeFiles/radar_sim.dir/src/main.cpp.o
+radar_sim: CMakeFiles/radar_sim.dir/src/radar.cpp.o
 radar_sim: CMakeFiles/radar_sim.dir/src/target.cpp.o
 radar_sim: CMakeFiles/radar_sim.dir/src/world.cpp.o
 radar_sim: CMakeFiles/radar_sim.dir/build.make
 radar_sim: CMakeFiles/radar_sim.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/workspaces/radar-tracking-sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable radar_sim"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/workspaces/radar-tracking-sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable radar_sim"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/radar_sim.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

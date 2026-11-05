@@ -153,6 +153,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/radar_sim.dir/build.make CMakeFiles/radar_sim.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/radar.o: src/radar.cpp.o
+.PHONY : src/radar.o
+
+# target to build an object file
+src/radar.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/radar_sim.dir/build.make CMakeFiles/radar_sim.dir/src/radar.cpp.o
+.PHONY : src/radar.cpp.o
+
+src/radar.i: src/radar.cpp.i
+.PHONY : src/radar.i
+
+# target to preprocess a source file
+src/radar.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/radar_sim.dir/build.make CMakeFiles/radar_sim.dir/src/radar.cpp.i
+.PHONY : src/radar.cpp.i
+
+src/radar.s: src/radar.cpp.s
+.PHONY : src/radar.s
+
+# target to generate assembly for a file
+src/radar.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/radar_sim.dir/build.make CMakeFiles/radar_sim.dir/src/radar.cpp.s
+.PHONY : src/radar.cpp.s
+
 src/target.o: src/target.cpp.o
 .PHONY : src/target.o
 
@@ -213,6 +237,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/radar.o"
+	@echo "... src/radar.i"
+	@echo "... src/radar.s"
 	@echo "... src/target.o"
 	@echo "... src/target.i"
 	@echo "... src/target.s"

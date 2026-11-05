@@ -9,4 +9,6 @@ struct Detection {
     double y = 0.0;
     bool is_clutter = false;
 
-}
+};
+
+#endif

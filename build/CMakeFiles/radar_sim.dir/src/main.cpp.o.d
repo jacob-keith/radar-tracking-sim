@@ -156,4 +156,8 @@ CMakeFiles/radar_sim.dir/src/main.cpp.o: \
  /usr/include/c++/13/bits/stl_bvector.h \
  /usr/include/c++/13/bits/vector.tcc \
  /workspaces/radar-tracking-sim/include/target.h \
- /workspaces/radar-tracking-sim/include/config.h
+ /workspaces/radar-tracking-sim/include/config.h \
+ /workspaces/radar-tracking-sim/include/radar.h \
+ /workspaces/radar-tracking-sim/include/config.h \
+ /workspaces/radar-tracking-sim/include/detection.h \
+ /workspaces/radar-tracking-sim/include/world.h
