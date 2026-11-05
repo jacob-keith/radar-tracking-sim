@@ -1,5 +1,5 @@
    build/
-   output/*.csv
+   output/**/*.csv
    *.o
    *.exe
    __pycache__/
