@@ -48,12 +48,15 @@ CMakeFiles/radar_sim.dir/src/main.cpp.o: /workspaces/radar-tracking-sim/src/main
   /usr/include/c++/13/bits/requires_hosted.h \
   /usr/include/c++/13/bits/std_abs.h \
   /usr/include/c++/13/bits/stl_algobase.h \
+  /usr/include/c++/13/bits/stl_bvector.h \
   /usr/include/c++/13/bits/stl_construct.h \
   /usr/include/c++/13/bits/stl_function.h \
   /usr/include/c++/13/bits/stl_iterator.h \
   /usr/include/c++/13/bits/stl_iterator_base_funcs.h \
   /usr/include/c++/13/bits/stl_iterator_base_types.h \
   /usr/include/c++/13/bits/stl_pair.h \
+  /usr/include/c++/13/bits/stl_uninitialized.h \
+  /usr/include/c++/13/bits/stl_vector.h \
   /usr/include/c++/13/bits/streambuf.tcc \
   /usr/include/c++/13/bits/streambuf_iterator.h \
   /usr/include/c++/13/bits/string_view.tcc \
@@ -61,6 +64,7 @@ CMakeFiles/radar_sim.dir/src/main.cpp.o: /workspaces/radar-tracking-sim/src/main
   /usr/include/c++/13/bits/uses_allocator.h \
   /usr/include/c++/13/bits/uses_allocator_args.h \
   /usr/include/c++/13/bits/utility.h \
+  /usr/include/c++/13/bits/vector.tcc \
   /usr/include/c++/13/cctype \
   /usr/include/c++/13/cerrno \
   /usr/include/c++/13/clocale \
@@ -93,6 +97,7 @@ CMakeFiles/radar_sim.dir/src/main.cpp.o: /workspaces/radar-tracking-sim/src/main
   /usr/include/c++/13/tuple \
   /usr/include/c++/13/type_traits \
   /usr/include/c++/13/typeinfo \
+  /usr/include/c++/13/vector \
   /usr/include/ctype.h \
   /usr/include/endian.h \
   /usr/include/errno.h \
@@ -186,8 +191,18 @@ CMakeFiles/radar_sim.dir/src/main.cpp.o: /workspaces/radar-tracking-sim/src/main
   /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
   /usr/include/x86_64-linux-gnu/sys/types.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
-  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
+  /workspaces/radar-tracking-sim/include/target.h \
+  /workspaces/radar-tracking-sim/include/world.h
 
+CMakeFiles/radar_sim.dir/src/target.cpp.o: /workspaces/radar-tracking-sim/src/target.cpp \
+  /usr/include/stdc-predef.h \
+  /workspaces/radar-tracking-sim/include/target.h
+
+
+/workspaces/radar-tracking-sim/src/target.cpp:
+
+/workspaces/radar-tracking-sim/include/world.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
 
@@ -257,9 +272,23 @@ CMakeFiles/radar_sim.dir/src/main.cpp.o: /workspaces/radar-tracking-sim/src/main
 
 /usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
 
+/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/setjmp.h:
+
+/usr/include/x86_64-linux-gnu/bits/select.h:
+
+/usr/include/x86_64-linux-gnu/bits/sched.h:
+
 /usr/include/c++/13/bits/string_view.tcc:
 
 /usr/include/features.h:
+
+/usr/include/c++/13/bits/stl_uninitialized.h:
 
 /usr/include/c++/13/bits/stl_construct.h:
 
@@ -272,18 +301,6 @@ CMakeFiles/radar_sim.dir/src/main.cpp.o: /workspaces/radar-tracking-sim/src/main
 /usr/include/c++/13/debug/debug.h:
 
 /usr/include/c++/13/stdexcept:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
-
-/usr/include/x86_64-linux-gnu/bits/floatn.h:
-
-/usr/include/c++/13/bits/std_abs.h:
-
-/usr/include/c++/13/bits/uses_allocator.h:
-
-/usr/include/c++/13/bits/postypes.h:
 
 /usr/include/c++/13/bits/ostream_insert.h:
 
@@ -304,8 +321,6 @@ CMakeFiles/radar_sim.dir/src/main.cpp.o: /workspaces/radar-tracking-sim/src/main
 /usr/include/alloca.h:
 
 /usr/include/c++/13/bits/stl_iterator_base_types.h:
-
-/usr/include/x86_64-linux-gnu/bits/sched.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
 
@@ -332,6 +347,8 @@ CMakeFiles/radar_sim.dir/src/main.cpp.o: /workspaces/radar-tracking-sim/src/main
 /usr/include/c++/13/bits/ios_base.h:
 
 /usr/include/c++/13/bits/locale_classes.tcc:
+
+/usr/include/c++/13/bits/stl_bvector.h:
 
 /usr/include/c++/13/bits/allocator.h:
 
@@ -385,9 +402,19 @@ CMakeFiles/radar_sim.dir/src/main.cpp.o: /workspaces/radar-tracking-sim/src/main
 
 /usr/include/time.h:
 
+/usr/include/x86_64-linux-gnu/bits/types.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
+
+/usr/include/c++/13/bits/cpp_type_traits.h:
+
 /usr/include/c++/13/bits/cxxabi_forced.h:
 
 /usr/include/c++/13/string:
+
+/workspaces/radar-tracking-sim/include/target.h:
+
+/usr/include/c++/13/bits/stl_vector.h:
 
 /usr/include/c++/13/bits/istream.tcc:
 
@@ -415,9 +442,23 @@ CMakeFiles/radar_sim.dir/src/main.cpp.o: /workspaces/radar-tracking-sim/src/main
 
 /usr/include/ctype.h:
 
+/usr/include/c++/13/bits/std_abs.h:
+
+/usr/include/c++/13/bits/postypes.h:
+
+/usr/include/c++/13/bits/uses_allocator.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
+
+/usr/include/x86_64-linux-gnu/bits/floatn.h:
+
 /usr/include/c++/13/bits/stl_function.h:
 
 /usr/include/c++/13/bits/utility.h:
+
+/usr/include/c++/13/bits/vector.tcc:
 
 /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
 
@@ -430,6 +471,8 @@ CMakeFiles/radar_sim.dir/src/main.cpp.o: /workspaces/radar-tracking-sim/src/main
 /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
 
 /usr/include/c++/13/cstddef:
+
+/usr/include/c++/13/vector:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
 
@@ -517,10 +560,6 @@ CMakeFiles/radar_sim.dir/src/main.cpp.o: /workspaces/radar-tracking-sim/src/main
 
 /usr/include/x86_64-linux-gnu/asm/errno.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
-
 /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
 
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
@@ -547,16 +586,4 @@ CMakeFiles/radar_sim.dir/src/main.cpp.o: /workspaces/radar-tracking-sim/src/main
 
 /usr/include/x86_64-linux-gnu/bits/locale.h:
 
-/usr/include/x86_64-linux-gnu/bits/select.h:
-
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/setjmp.h:
-
-/usr/include/x86_64-linux-gnu/bits/types.h:
-
-/usr/include/c++/13/bits/cpp_type_traits.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:

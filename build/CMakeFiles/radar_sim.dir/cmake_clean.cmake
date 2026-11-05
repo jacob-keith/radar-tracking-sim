@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/radar_sim.dir/src/main.cpp.o.d"
   "CMakeFiles/radar_sim.dir/src/target.cpp.o"
   "CMakeFiles/radar_sim.dir/src/target.cpp.o.d"
+  "CMakeFiles/radar_sim.dir/src/world.cpp.o"
+  "CMakeFiles/radar_sim.dir/src/world.cpp.o.d"
   "radar_sim"
   "radar_sim.pdb"
 )
