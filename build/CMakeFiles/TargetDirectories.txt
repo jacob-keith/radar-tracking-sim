@@ -1,3 +1,0 @@
-/workspaces/radar-tracking-sim/build/CMakeFiles/radar_sim.dir
-/workspaces/radar-tracking-sim/build/CMakeFiles/edit_cache.dir
-/workspaces/radar-tracking-sim/build/CMakeFiles/rebuild_cache.dir
