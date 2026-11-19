@@ -1,11 +1,10 @@
 #ifndef RADAR_H
 #define RADAR_H
-
+#include <random>
 #include <vector>
 #include "config.h"
 #include "detection.h"
 #include "world.h"
-
 
 class Radar {
 public:
@@ -16,6 +15,7 @@ private:
     double x_;
     double y_;
     Config config_;
+    std::mt19937 rng_;
 };
 
 #endif
