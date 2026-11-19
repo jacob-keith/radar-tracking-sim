@@ -17,10 +17,14 @@ int main() {
     world.addTarget(target2);
 
     Radar radar(0.0, 0.0, config);
-    std::vector<Detection> detections = radar.scan(world, 0.0);
-    for (const Detection& detection : detections) {
-        std::cout << "Range: " << detection.range << " " << "Bearing: " << detection.bearing << " " << "x: " << detection.x << " " << "y: " << detection.y
-        << std::endl;
+
+    int count = 0;
+    for (int i = 0; i < 20; i++) {
+        std::vector<Detection> detections = radar.scan(world, 0.0);
+        count += detections.size();
     }
+
+    std::cout << "Detections in 20 scans: " << count << std::endl;
+
     return 0;
 }

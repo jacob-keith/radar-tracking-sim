@@ -17,5 +17,4 @@ private:
     Config config_;
     std::mt19937 rng_;
 };
-
 #endif
